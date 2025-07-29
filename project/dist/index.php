@@ -99,9 +99,15 @@
           include 'users.php';
           break;
 
+        case 'add_user':
+          include 'add_user.php';
+          break;
+
         default:
           include 'dashboard.php';
           break;
+        
+        
       }
       ?>
     </main>

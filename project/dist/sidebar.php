@@ -36,9 +36,9 @@
         </li>
 
         <li class="nav-item">
-          <a href="index.php?page=users" class="nav-link active">
+          <a href="index.php?page=users_list" class="nav-link active">
             <i class="nav-icon bi bi-palette"></i>
-            <p>users</p>
+            <p>Users</p>
           </a>
         </li>
 
