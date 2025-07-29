@@ -4,7 +4,10 @@
     <!--begin::Brand Link-->
     <a href="./index.html" class="brand-link">
       <!--begin::Brand Image-->
-      <img src="./assets/img/logo.gif" alt="AdminLTE Logo" class="brand-image opacity-75 shadow" />
+      <img
+        src="./assets/img/logo.gif"
+        alt="AdminLTE Logo"
+        class="brand-image opacity-75 shadow" />
       <!--end::Brand Image-->
       <!--begin::Brand Text-->
       <span class="brand-text fw-light">TATC-SHOP</span>
@@ -17,14 +20,28 @@
   <div class="sidebar-wrapper">
     <nav class="mt-2">
       <!--begin::Sidebar Menu-->
-      <ul class="nav sidebar-menu flex-column" data-lte-toggle="treeview" role="navigation" aria-label="Main navigation"
-        data-accordion="false" id="navigation">
+      <ul
+        class="nav sidebar-menu flex-column"
+        data-lte-toggle="treeview"
+        role="navigation"
+        aria-label="Main navigation"
+        data-accordion="false"
+        id="navigation">
+
         <li class="nav-item">
-          <a href="dashboard.php?page=dasboard" class="nav-link active">
+          <a href="index.php?page=dashboard" class="nav-link active">
             <i class="nav-icon bi bi-palette"></i>
             <p>Dashboard</p>
           </a>
         </li>
+
+        <li class="nav-item">
+          <a href="index.php?page=users" class="nav-link active">
+            <i class="nav-icon bi bi-palette"></i>
+            <p>users</p>
+          </a>
+        </li>
+
       </ul>
       <!--end::Sidebar Menu-->
     </nav>
