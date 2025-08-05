@@ -39,7 +39,7 @@ $result = $con->query($sql);
                     </div>
                     <!-- /.card-header -->
                     <div class="card-body">
-                        <a href="index.php?page=add_user" class="btn btn-success mb-4">+add user</a>
+                        <a href="index.php?page=add_user" class="btn btn-success mb-4"><i class="bi bi-person-add"></i> add user</a>
                         <table class="table table-bordered">
                             <thead>
                                 <tr>
@@ -48,6 +48,7 @@ $result = $con->query($sql);
                                     <th>fullname</th>
                                     <th>email</th>
                                     <th>Phone</th>
+                                    <th>Actions</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -63,6 +64,10 @@ $result = $con->query($sql);
                                         <td><?php echo $row['fullname'] ?></td>
                                         <td><?php echo $row['phone'] ?></td>
                                         <td><?php echo $row['email'] ?></td>
+                                        <td>
+                                            <a href="index.php?page=edit_user&username=<?php echo $row['username'] ?>" class="btn btn-warning"><i class="bi bi-pencil-square"></i></a>
+                                            <a href="index.php?page=del_user&username=<?php echo $row['username'] ?>" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this user?')"><i class="bi bi-trash"></i></a>
+                                        </td>
                                     </tr>
 
                             </tbody>

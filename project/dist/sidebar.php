@@ -37,7 +37,7 @@
 
         <li class="nav-item">
           <a href="index.php?page=users_list" class="nav-link active">
-            <i class="nav-icon bi bi-palette"></i>
+            <i class="bi bi-people"></i>
             <p>Users</p>
           </a>
         </li>
