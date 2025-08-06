@@ -2,7 +2,7 @@
   <!--begin::Sidebar Brand-->
   <div class="sidebar-brand">
     <!--begin::Brand Link-->
-    <a href="./index.html" class="brand-link">
+    <a href="./index.php" class="brand-link">
       <!--begin::Brand Image-->
       <img
         src="./assets/img/logo.gif"
@@ -39,6 +39,13 @@
           <a href="index.php?page=users_list" class="nav-link active">
             <i class="bi bi-people"></i>
             <p>Users</p>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="index.php?page=products" class="nav-link active">
+            <i class="bi bi-people"></i>
+            <p>Products</p>
           </a>
         </li>
 

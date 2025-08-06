@@ -111,6 +111,22 @@
           include 'del_user.php';
           break;
 
+        case 'products':
+          include 'products.php';
+          break;
+
+        case 'add_product':
+          include 'add_product.php';
+          break;
+
+        case 'edit_product':
+          include 'edit_product.php';
+          break;
+
+        case 'del_product':
+          include 'del_product.php';
+          break;
+
         default:
           include 'dashboard.php';
           break;
